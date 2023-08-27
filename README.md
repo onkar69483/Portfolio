@@ -18,7 +18,7 @@ My portfolio website serves as an interactive platform to present my journey, ex
 
 ## Contributions by [Sachin Mhetre](https://github.com/Sachin-Mhetre)
 
-This portfolio website was brought to life with the invaluable contributions of my friend [Sachin Mhetre](https://github.com/Sachin-Mhetre). Sachin's expertise in web development and design significantly enhanced the website's aesthetic appeal and functionality.
+This portfolio website was brought to life with the invaluable contributions of my friend [Sachin Mhetre](https://github.com/Sachin-Mhetre). Sachin's expertise in web development and design significantly enhanced the website's aesthetic appeal and functionality. If you want to make such amazing website contact Sachin at sachinmhetre678@gmail.com
 
 Sachin's Contributions:
 
@@ -36,7 +36,7 @@ Sachin's Contributions:
 
 ## Credits
 
-This portfolio website was made possible by the collaborative efforts of both me and [Sachin Mhetre](https://github.com/Sachin-Mhetre). Sachin's dedication and expertise significantly contributed to the website's success.
+This portfolio website was made possible by the collaborative efforts of both me and [Sachin Mhetre](https://github.com/Sachin-Mhetre). Sachin's dedication and expertise significantly contributed to the website's success. 
 
 ## Contributions
 
