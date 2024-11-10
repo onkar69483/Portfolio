@@ -59,10 +59,10 @@ const Hero = () => {
             className="text-center md:tracking-wide mb-8 text-sm md:text-lg lg:text-xl
   text-gray-300 max-w-3xl leading-relaxed"
           >
-            I'm Onkar Mendhapurkar, Computer Science enthusiast at Symbiosis
-            Institute of Technology. Passionate about creating innovative
-            solutions through code and robotics. Currently leading Rotonity,
-            SIT&apos;s Robotics & Automation Club.
+            I&apos;m Onkar Mendhapurkar, Computer Science enthusiast at
+            Symbiosis Institute of Technology. Passionate about creating
+            innovative solutions through code and robotics. Currently leading
+            Rotonity, SIT&apos;s Robotics & Automation Club.
           </p>
 
           {/* Achievement stats */}
