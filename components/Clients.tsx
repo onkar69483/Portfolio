@@ -63,18 +63,6 @@ const Education = () => {
             speed="slow"
           />
         </div>
-
-        <div className="flex flex-wrap items-center justify-center gap-4 mt-2">
-          {education.map((edu, index) => (
-            <div
-              key={index}
-              className="px-4 py-3 bg-white/5 backdrop-blur-sm rounded-lg border border-gray-800"
-            >
-              <h3 className="font-semibold text-sm text-purple">{edu.name}</h3>
-              <p className="text-xs text-gray-400 mt-1">{edu.title}</p>
-            </div>
-          ))}
-        </div>
       </div>
     </section>
   );
