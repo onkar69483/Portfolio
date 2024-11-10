@@ -4,7 +4,7 @@ import { workExperience } from "@/data";
 
 const Experience = () => {
   return (
-    <section className="container mx-auto px-4 py-20">
+    <section id="experience" className="container mx-auto px-4 py-20">
       <div className="flex flex-col items-center mb-16">
         <h1 className="text-4xl md:text-5xl font-bold text-center">
           My <span className="text-purple">work experience</span>
