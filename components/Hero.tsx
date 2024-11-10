@@ -30,11 +30,11 @@ const Hero = () => {
         />
       </div>
 
-      {/* Main content*/}
+      {/* Main content */}
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           {/* Role badge with animation */}
-          <div className="relative group">
+          <div className="relative group mb-4">
             <p
               className="uppercase tracking-[0.2em] text-xs md:text-sm text-center text-blue-100 px-4 py-2 rounded-full
               bg-blue-100/5 backdrop-blur-sm border border-blue-100/10 hover:border-blue-100/20 transition-all duration-300"
@@ -45,7 +45,7 @@ const Hero = () => {
 
           <div className="w-16 h-0.5 bg-gradient-to-r from-transparent via-blue-100/20 to-transparent my-4" />
 
-          {/* Main heading*/}
+          {/* Main heading */}
           <div className="mb-6">
             <TextGenerateEffect
               words="Building Intelligent Solutions through Code and Innovation"
@@ -54,15 +54,20 @@ const Hero = () => {
             />
           </div>
 
-          {/* Bio text*/}
+          {/* Bio text */}
           <p
             className="text-center md:tracking-wide mb-8 text-sm md:text-lg lg:text-xl
   text-gray-300 max-w-3xl leading-relaxed"
           >
-            I&apos;m Onkar Mendhapurkar, Computer Science enthusiast at
-            Symbiosis Institute of Technology. Passionate about creating
-            innovative solutions through code and robotics. Currently leading
-            Rotonity, SIT&apos;s Robotics & Automation Club.
+            I&apos;m
+            <span className="text-xl md:text-2xl font-semibold text-blue-300">
+              {" "}
+              Onkar Mendhapurkar,{" "}
+            </span>
+            a Computer Science student at Symbiosis Institute of Technology.
+            Passionate about creating innovative solutions through code and
+            robotics. Currently leading Rotonity, SIT&apos;s Robotics &
+            Automation Club.
           </p>
 
           {/* Achievement stats */}
@@ -85,10 +90,11 @@ const Hero = () => {
             </div>
           </div>
 
+          {/* Explore button */}
           <div className="flex items-center gap-4">
             <a href="#projects">
               <MagicButton
-                title="Explore My Work"
+                title="Explore My Projects"
                 icon={<FaLocationArrow />}
                 position="right"
               />
