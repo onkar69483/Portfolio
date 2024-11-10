@@ -1,47 +1,78 @@
+// Education.tsx
 "use client";
 
 import React from "react";
-
-import { companies, testimonials } from "@/data";
 import { InfiniteMovingCards } from "./ui/InfiniteCards";
 
-const Clients = () => {
+const education = [
+  {
+    name: "Symbiosis Institute of Technology",
+    title: "2022 - 2026",
+    image: "/SIT.png",
+    quote: (
+      <div className="flex flex-col gap-1">
+        <h3 className="font-bold text-base text-purple">
+          B.Tech Computer Science
+        </h3>
+        <p className="text-sm">GPA: 8.4</p>
+        <p className="text-xs text-gray-400">Pune, India</p>
+      </div>
+    ),
+  },
+  {
+    name: "Arham Junior College",
+    title: "2020 – 2022",
+    image: "/arham.png",
+    quote: (
+      <div className="flex flex-col gap-1">
+        <h3 className="font-bold text-base text-purple">
+          Pre-University Education
+        </h3>
+        <p className="text-sm">Grade: 80%</p>
+        <p className="text-xs text-gray-400">Pune, India</p>
+      </div>
+    ),
+  },
+  {
+    name: "Hume McHenry School",
+    title: "2009 – 2020",
+    image: "/hume.jpg",
+    quote: (
+      <div className="flex flex-col gap-1">
+        <h3 className="font-bold text-base text-purple">Secondary Education</h3>
+        <p className="text-sm">Grade: 89.33%</p>
+        <p className="text-xs text-gray-400">Pune, India</p>
+      </div>
+    ),
+  },
+];
+
+const Education = () => {
   return (
-    <section id="testimonials" className="py-20">
+    <section id="education" className="py-20">
       <h1 className="heading">
-        Kind words from
-        <span className="text-purple"> satisfied clients</span>
+        My Academic
+        <span className="text-purple"> Journey</span>
       </h1>
 
       <div className="flex flex-col items-center max-lg:mt-10">
-        <div
-          // remove bg-white dark:bg-black dark:bg-grid-white/[0.05], h-[40rem] to 30rem , md:h-[30rem] are for the responsive design
-          className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden"
-        >
+        <div className="h-[40vh] md:h-[25rem] rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden">
           <InfiniteMovingCards
-            items={testimonials}
+            items={education}
             direction="right"
             speed="slow"
           />
         </div>
 
-        <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10">
-          {companies.map((company) => (
-            <React.Fragment key={company.id}>
-              <div className="flex md:max-w-60 max-w-32 gap-2">
-                <img
-                  src={company.img}
-                  alt={company.name}
-                  className="md:w-10 w-5"
-                />
-                <img
-                  src={company.nameImg}
-                  alt={company.name}
-                  width={company.id === 4 || company.id === 5 ? 100 : 150}
-                  className="md:w-24 w-20"
-                />
-              </div>
-            </React.Fragment>
+        <div className="flex flex-wrap items-center justify-center gap-4 mt-2">
+          {education.map((edu, index) => (
+            <div
+              key={index}
+              className="px-4 py-3 bg-white/5 backdrop-blur-sm rounded-lg border border-gray-800"
+            >
+              <h3 className="font-semibold text-sm text-purple">{edu.name}</h3>
+              <p className="text-xs text-gray-400 mt-1">{edu.title}</p>
+            </div>
           ))}
         </div>
       </div>
@@ -49,4 +80,4 @@ const Clients = () => {
   );
 };
 
-export default Clients;
+export default Education;
