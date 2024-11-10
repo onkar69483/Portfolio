@@ -5,7 +5,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   return (
-    <div id="home" className="pb-20 mt-12 overflow-hidden">
+    <div id="home" className="pb-20 mt-8 overflow-hidden">
       {/* Spotlights */}
       <div>
         <Spotlight
@@ -34,19 +34,19 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           {/* Role badge with animation */}
-          <div className="relative group mb-4">
+          <div className="relative group mb-2">
             <p
-              className="uppercase tracking-[0.2em] text-xs md:text-sm text-center text-blue-100 px-4 py-2 rounded-full
+              className="uppercase tracking-[0.2em] text-xs md:text-sm text-center text-blue-100 px-4 py-1 rounded-full
               bg-blue-100/5 backdrop-blur-sm border border-blue-100/10 hover:border-blue-100/20 transition-all duration-300"
             >
               Full Stack Developer & Robotics Club President
             </p>
           </div>
 
-          <div className="w-16 h-0.5 bg-gradient-to-r from-transparent via-blue-100/20 to-transparent my-4" />
+          <div className="w-16 h-0.5 bg-gradient-to-r from-transparent via-blue-100/20 to-transparent my-2" />
 
           {/* Main heading */}
-          <div className="mb-6">
+          <div className="mb-4">
             <TextGenerateEffect
               words="Building Intelligent Solutions through Code and Innovation"
               className="text-center text-[32px] sm:text-[40px] md:text-5xl lg:text-6xl font-bold
@@ -56,7 +56,7 @@ const Hero = () => {
 
           {/* Bio text */}
           <p
-            className="text-center md:tracking-wide mb-8 text-sm md:text-lg lg:text-xl
+            className="text-center md:tracking-wide mb-4 text-sm md:text-lg lg:text-xl
   text-gray-300 max-w-3xl leading-relaxed"
           >
             I&apos;m
