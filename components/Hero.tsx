@@ -57,12 +57,12 @@ const Hero = () => {
           {/* Bio text*/}
           <p
             className="text-center md:tracking-wide mb-8 text-sm md:text-lg lg:text-xl
-            text-gray-300 max-w-3xl leading-relaxed"
+  text-gray-300 max-w-3xl leading-relaxed"
           >
             Computer Science enthusiast at Symbiosis Institute of Technology.
             Passionate about creating innovative solutions through code and
-            robotics. Currently leading Rotonity, SIT's Robotics & Automation
-            Club.
+            robotics. Currently leading Rotonity, SIT&apos;s Robotics &
+            Automation Club.
           </p>
 
           {/* Achievement stats */}
