@@ -240,13 +240,19 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/onkar69483",
+    name: "github",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/insta.svg",
+    link: "https://www.instagram.com/onkar.mendhapurkar/",
+    name: "insta",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/onkarmendhapurkar/",
+    name: "linkedin",
   },
 ];
