@@ -26,9 +26,9 @@ export const gridItems = [
     title: "Coding a better world.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
+    imgClassName: "h-full",
     titleClassName:
-      "justify-start text-white bg-black bg-opacity-60 px-2 py-1 rounded",
+      "justify-start text-center text-white bg-black bg-opacity-60 px-2 py-1 rounded",
 
     img: "/programming.gif",
     spareImg: "",
@@ -130,39 +130,6 @@ export const projects = [
     iconLists: ["/java.svg", "/netbeans.svg", "/mysql.svg"],
     link: "https://github.com/onkar69483/Personal_Finance_Management-Java-Swing",
     poptitle: "EzFinance",
-  },
-];
-
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
   },
 ];
 
