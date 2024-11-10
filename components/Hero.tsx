@@ -5,7 +5,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   return (
-    <div className="pb-20 mt-8 overflow-hidden">
+    <div id="home" className="pb-20 mt-12 overflow-hidden">
       {/* Spotlights */}
       <div>
         <Spotlight
@@ -59,10 +59,10 @@ const Hero = () => {
             className="text-center md:tracking-wide mb-8 text-sm md:text-lg lg:text-xl
   text-gray-300 max-w-3xl leading-relaxed"
           >
-            Computer Science enthusiast at Symbiosis Institute of Technology.
-            Passionate about creating innovative solutions through code and
-            robotics. Currently leading Rotonity, SIT&apos;s Robotics &
-            Automation Club.
+            I'm Onkar Mendhapurkar, Computer Science enthusiast at Symbiosis
+            Institute of Technology. Passionate about creating innovative
+            solutions through code and robotics. Currently leading Rotonity,
+            SIT&apos;s Robotics & Automation Club.
           </p>
 
           {/* Achievement stats */}
