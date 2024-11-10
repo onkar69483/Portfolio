@@ -26,7 +26,7 @@ export const gridItems = [
     title: "Coding a better world.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "h-full",
+    imgClassName: "h-full w-full",
     titleClassName:
       "justify-start text-center text-white bg-black bg-opacity-60 px-2 py-1 rounded",
 
